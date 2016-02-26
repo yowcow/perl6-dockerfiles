@@ -1,4 +1,5 @@
 FROM ubuntu:trusty
+MAINTAINER yowcow <yowcow@gmail.com>
 
 RUN apt-get -y update && apt-get install -y build-essential curl git && apt-get clean
 
